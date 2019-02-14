@@ -17,6 +17,7 @@ Assets.xcassetsを選択し、右クリックから「New AR Resource Group」�
 <img src="images/detect_image_add_images.png" width="480"/>   
 
 今回はこちらの画像を使用してみましょう
+
 https://user-images.githubusercontent.com/23329399/52777158-7a78d180-3086-11e9-8949-bbfd768069dd.jpg
 
 4. 飛行機を削除し、画像認識指定を追加。  
