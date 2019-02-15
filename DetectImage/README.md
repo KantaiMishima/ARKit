@@ -1,3 +1,6 @@
+## [前のセッションへ](../DetectHPlane)
+
+
 ## DetectImage
 ### 概要
 画像を認識し、3D文字を配置する。
@@ -26,3 +29,6 @@ Assets.xcassetsを選択し、右クリックから「New AR Resource Group」�
 
 6. 実行。  
 <img src="images/detect_image_run.jpeg" width="240"/>   
+
+
+[indexへ戻る](../../../)
