@@ -62,18 +62,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // 検出をバイブで通知
         AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
         
-        var displayText = "硬貨"
+        var displayText = "?"
         if let imageAnchor = anchor as? ARImageAnchor {
             if let name = imageAnchor.referenceImage.name {
                 switch name {
-                case "yen1":
-                    displayText = "1円"
-                case "yen5":
-                    displayText = "5円"
-                case "yen10":
-                    displayText = "10円"
-                case "yen50":
-                    displayText = "50円"
+                case "POPY":
+                    displayText = "POPY"
                 default:
                     displayText = "？"
                 }
