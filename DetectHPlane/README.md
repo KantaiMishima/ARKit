@@ -35,7 +35,7 @@ SceneKit：簡単に3Dゲームを作ることができるフレームワー�
 6. 実行。
 <img src="images/detect_hplane.png" width="200"/>  
 
-## [今回のソースコード](./DetectHPlane/ViewController.swift)
+### [今回のソースコード](./DetectHPlane/ViewController.swift)
 
 
 ## [次のセッションへ](../DetectImage)
