@@ -22,3 +22,6 @@ VIO(Visual-Inertial Odometry)：カメラやセンサから環境マッピング
 Firebaseブログで紹介されている機械学習モジュール(MLKit)とARKitを組み合わせたプロジェクト。  
 タップした位置の画像認識結果が3D文字で配置される。  
 Firebase：Google提供のモバイルアプリ開発プラットフォーム。
+
+## [BallToWall](./BallToWall)
+垂直面を認識し、タップした位置から物理演算により球を投げる。
