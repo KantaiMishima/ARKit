@@ -25,4 +25,4 @@ SceneKit：簡単に3Dゲームを作ることができるフレームワー�
 <img src="images/detect_hplane.png" width="200"/>  
 
 
-## [次へ](../DetectImage)
+## [次のセッションへ](../DetectImage)
