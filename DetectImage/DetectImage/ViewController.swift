@@ -11,7 +11,7 @@ import SceneKit
 import ARKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
-    
+
     @IBOutlet var sceneView: ARSCNView!
     
     override func viewDidLoad() {
@@ -24,27 +24,18 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene()
+        let scene = SCNScene(named: "art.scnassets/ship.scn")!
         
         // Set the scene to the view
         sceneView.scene = scene
-        
-        // デバッグ用に特徴点を表示
-        sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints]
-        
-        // ライトを追加
-        sceneView.autoenablesDefaultLighting = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         // Create a session configuration
-        // 画像認識の参照用画像をアセットから取得
-        let configuration = ARImageTrackingConfiguration()
-        configuration.trackingImages =
-            ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: nil)!
-        
+        let configuration = ARWorldTrackingConfiguration()
+
         // Run the view's session
         sceneView.session.run(configuration)
     }
@@ -55,49 +46,17 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Pause the view's session
         sceneView.session.pause()
     }
+
+    // MARK: - ARSCNViewDelegate
     
-    // 画像検出時に呼び出される
-    func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor:
-        ARAnchor) {
-        // 検出をバイブで通知
-        AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
-        
-        var displayText = "硬貨"
-        if let imageAnchor = anchor as? ARImageAnchor {
-            if let name = imageAnchor.referenceImage.name {
-                switch name {
-                case "yen1":
-                    displayText = "1円"
-                case "yen5":
-                    displayText = "5円"
-                case "yen10":
-                    displayText = "10円"
-                case "yen50":
-                    displayText = "50円"
-                default:
-                    displayText = "？"
-                }
-            }
-        }
-        
-        let text = SCNText(string: displayText, extrusionDepth: 0.2)
-        text.font = UIFont.systemFont(ofSize: 1.0)
-        text.firstMaterial?.diffuse.contents = UIColor.red
-        let textNode = SCNNode(geometry: text)
-        
-        let (min, max) = (textNode.boundingBox)
-        let w = Float(max.x - min.x)
-        let ratio = 0.02 / w
-        textNode.scale = SCNVector3(ratio, ratio, ratio)
-        textNode.pivot = SCNMatrix4Rotate(textNode.pivot, Float.pi, 0, 1, 0)
-        
-        // テキストをカメラ方向固定にする
-        let constraint = SCNLookAtConstraint(target: sceneView.pointOfView)
-        constraint.isGimbalLockEnabled = true
-        textNode.constraints = [constraint]
-        
-        node.addChildNode(textNode)
+/*
+    // Override to create and configure nodes for anchors added to the view's session.
+    func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
+        let node = SCNNode()
+     
+        return node
     }
+*/
     
     func session(_ session: ARSession, didFailWithError error: Error) {
         // Present an error message to the user
@@ -114,3 +73,5 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
     }
 }
+
+
