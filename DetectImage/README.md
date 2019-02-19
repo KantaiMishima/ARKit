@@ -22,10 +22,10 @@ Assets.xcassetsを選択し、右クリックから「New AR Resource Group」�
 [今回はこちらの画像を使用してみましょう](https://user-images.githubusercontent.com/23329399/52778914-7058d200-308a-11e9-8947-64876a70f037.png)
 
 4. 飛行機を削除し、画像認識指定を追加。  
-[変更内容](https://github.com/da351hon/DetectImage/commit/f40a5eeb27440544a370714697b72f97294db210)
+[変更内容](https://github.com/KantaiMishima/ARKit/commit/518822df211222c2846de0c66a99ced85e8a8124)
 
 5. 画像検出時に3D文字を配置する処理を追加。  
-[変更内容](https://github.com/da351hon/DetectImage/commit/b761bd2c7702b6bc54e64742a0e3d074cc66528b)
+[変更内容](https://github.com/KantaiMishima/ARKit/commit/565363260d6a12616808afe659c2a243bffe3a3e)
 
 6. 実行。  
 <img src="images/detect_image_run.jpeg" width="240"/>   
