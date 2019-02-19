@@ -11,22 +11,22 @@ SceneKit：簡単に3Dゲームを作ることができるフレームワー�
 <img src="images/ball_to_wall_select_swift_scene_kit.png" width="480"/>  
 
 3. 飛行機を削除し、垂直面認識指定を追加。  
-[変更内容](https://github.com/da351hon/BallToWall/commit/6810d770134c071b4b2e5f605a9d8f604986a937)
+[変更内容](https://github.com/KantaiMishima/ARKit/commit/771027c1a18df5b7445072586dadd2a1ebd4a3ae)
 
 4. 垂直面検出時に平面を配置、更新する処理を追加。  
-[変更内容](https://github.com/da351hon/BallToWall/commit/b86712348f34e75ecb62c33648aadf2cfc60affd)
+[変更内容](https://github.com/KantaiMishima/ARKit/commit/bbc6f32aef00a90aabfdc3ac51e2abe0ec94f7cd)
 
 5. 実行。  
 <img src="images/ball_to_wall_run_vplane.png" width="240"/>  
 
 6. タップした位置に球を配置する処理を追加。  
-[変更内容](https://github.com/da351hon/BallToWall/commit/a630f23b06734f1953358b9ff1fe2468c4d73fc8)
+[変更内容](https://github.com/KantaiMishima/ARKit/commit/70ae1611bf0efc5bb209a44390338a8367d7c5f9)
 
 7. 物理演算を追加。  
-[変更内容](https://github.com/da351hon/BallToWall/commit/75a98a29f5ffb7894fc79688c962a5ad78b20add)
+[変更内容](https://github.com/KantaiMishima/ARKit/commit/ddededb45ca2ada5b811b44c79380c43d117d85c)
 
 8. 平面に物理演算を追加。  
-[変更内容](https://github.com/da351hon/BallToWall/commit/29f5263f5531a52b96abdddc9799e8530d71145d)
+[変更内容](https://github.com/KantaiMishima/ARKit/commit/114b3604a812afbfdb6e043c83684348b3dfe763)
 
 9. 実行  
 垂直面検出後に画面をタップすると、ボールが飛んでいき、跳ね返る様子が確認できる。
