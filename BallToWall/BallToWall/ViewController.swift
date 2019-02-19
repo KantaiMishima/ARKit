@@ -29,13 +29,13 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Set the scene to the view
         sceneView.scene = scene
 
-         // デバッグ用に特徴点を表示
+        // デバッグ用に特徴点を表示
         sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints]
 
-         // ライトを追加
+        // ライトを追加
         sceneView.autoenablesDefaultLighting = true
 
-         // タップの検出
+        // タップの検出
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action:
             #selector(onTapped))
         self.sceneView.addGestureRecognizer(tapGestureRecognizer)
@@ -47,7 +47,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Create a session configuration
         let configuration = ARWorldTrackingConfiguration()
 
-         // 垂直面検出を指定
+        // 垂直面検出を指定
         configuration.planeDetection = .vertical
 
         // Run the view's session
@@ -61,17 +61,17 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.session.pause()
     }
 
-     // タップ検出時に呼び出される
+    // タップ検出時に呼び出される
     @objc func onTapped(recognizer: UIGestureRecognizer) {
         throwBall()
     }
 
-     // 球を投げる
+    // 球を投げる
     func throwBall() {
         // カメラ座標が取得できなければ何もしない
         guard let camera = sceneView.pointOfView else { return }
 
-         // ノードの生成
+        // ノードの生成
         let sphereNode = SCNNode()
         // ジオメトリ(物体)として球を指定
         sphereNode.geometry = SCNSphere(radius: 0.01)
@@ -82,7 +82,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let convertedPosition = camera.convertPosition(position, to: nil)
         sphereNode.position = convertedPosition
 
-         // PhysicsBodyの設定
+        // PhysicsBodyの設定
         sphereNode.physicsBody = SCNPhysicsBody(type: .dynamic, shape: nil)
         sphereNode.physicsBody?.mass = 0.2                  // 質量 0.2kg
         sphereNode.physicsBody?.isAffectedByGravity = true  // 重力の影響を受ける
@@ -94,7 +94,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let convertedVector = camera.convertVector(initialVector, to: nil)
         sphereNode.physicsBody?.velocity = convertedVector
 
-         // ノードを追加
+        // ノードを追加
         sceneView.scene.rootNode.addChildNode(sphereNode)
     }
 
@@ -104,7 +104,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // anchorがARPlaneAnchor以外なら何もしない
         guard let planeAnchor = anchor as? ARPlaneAnchor else { return }
 
-         // ノードを作成
+        // ノードを作成
         let planeNode = SCNNode()
         // ジオメトリ(物体)として平面を指定
         planeNode.geometry = SCNPlane(width: CGFloat(planeAnchor.extent.x),
@@ -117,11 +117,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         planeNode.physicsBody = SCNPhysicsBody(type: .kinematic,
                                                shape: SCNPhysicsShape(geometry: planeNode.geometry!, options: nil))
 
-         // 検出されたノードの子要素とする
+        // 検出されたノードの子要素とする
         node.addChildNode(planeNode)
     }
 
-     // 垂直面更新時に呼び出される
+    // 垂直面更新時に呼び出される
     func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for
         anchor: ARAnchor) {
         // anchorがARPlaneAnchor以外なら何もしない
@@ -131,7 +131,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             let planeGeometory = planeNode.geometry as? SCNPlane else
         { return }
 
-         // ジオメトリを更新
+        // ジオメトリを更新
         planeGeometory.width  = CGFloat(planeAnchor.extent.x)
         planeGeometory.height = CGFloat(planeAnchor.extent.z)
         planeNode.physicsBody = SCNPhysicsBody(type: .kinematic,
