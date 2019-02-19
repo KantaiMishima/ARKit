@@ -6,11 +6,22 @@
 1. Xcodeで新規プロジェクトを作成し、「Augmented Reality App」を選択。  
 <img src="images/detect_hplane_select_ar.png" width="480"/>   
 
-2. 任意のプロジェクト名(ここでは「DetectHPlane」)、Languageは「Swift」、Content Technologyは「SceneKit」を選択。  
+2. 以下の内容を入力。
 SceneKit：簡単に3Dゲームを作ることができるフレームワーク  
+
+|項目|入力内容|
+| -- | -- |
+|Project Name|任意のプロジェクト名(ここでは「DetectHPlane」)|
+|Team|任意のアカウント(ここが「none」になっている人は教えてください)|
+|Organization Name|任意のチーム名(ここでは「HIT」+A~Cのアルファベット)|
+|Organization Id|任意のチームID(ここでは「HIT」+A~Cのアルファベット)|
+|Language|Swift|
+|Content Technology|SceneKit|
+
 <img src="images/detect_hplane_select_swift_scene_kit.png" width="480"/>  
 
 3. 一旦、実行してみる。iPhone/iPadを接続し、実行ボタンを押下。  
+   ここで「信頼されていないデベロッパです」と怒られるので[こちら](https://code-schools.com/xcode-error-2/)を参考に対応
 <img src="images/detect_hplane_initial_run.png" width="480"/>  
 カメラスルーに飛行機が表示される。  
 <img src="images/detect_hplane_initial_run_ship.png" width="200"/>  
@@ -23,3 +34,8 @@ SceneKit：簡単に3Dゲームを作ることができるフレームワー�
 
 6. 実行。
 <img src="images/detect_hplane.png" width="200"/>  
+
+### [今回のソースコード](./DetectHPlane/ViewController.swift)
+
+
+## [次のセッションへ](../DetectImage)
