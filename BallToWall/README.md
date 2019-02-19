@@ -32,4 +32,4 @@ SceneKit：簡単に3Dゲームを作ることができるフレームワー�
 垂直面検出後に画面をタップすると、ボールが飛んでいき、跳ね返る様子が確認できる。
 
 
-### [今回のソースコード](./BallToWall/ViewController.swift)
+### [今回のソースコード](https://raw.githubusercontent.com/KantaiMishima/ARKit/master/BallToWall/BallToWall/ViewController.swift)
