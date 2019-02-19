@@ -27,10 +27,10 @@ SceneKit：簡単に3Dゲームを作ることができるフレームワー�
 <img src="images/detect_hplane_initial_run_ship.png" width="200"/>  
 
 4. 飛行機を削除し、水平面認識指定を追加。  
-[変更内容](https://github.com/da351hon/DetectHPlane/commit/2a964fc8b8b52a165174da7134336c1e415335cf)
+[変更内容](https://github.com/KantaiMishima/ARKit/commit/fa1a59d1e687bc44aa84e66d01cad7b124b076be)
 
 5. 水平面検出時に球を配置する処理を追加。  
-[変更内容](https://github.com/da351hon/DetectHPlane/commit/4280be1f1c8aea9408daf1aa038f70411c12b231)
+[変更内容](https://github.com/KantaiMishima/ARKit/commit/91311e4717aafdb1600b29b091b1e3f11121b920)
 
 6. 実行。
 <img src="images/detect_hplane.png" width="200"/>  
