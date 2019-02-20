@@ -30,6 +30,6 @@ Assets.xcassetsを選択し、右クリックから「New AR Resource Group」�
 6. 実行。  
 <img src="images/detect_image_run.jpeg" width="240"/>   
 
-### [今回のソースコード](./DetectImage/ViewController.swift)
+### [今回のソースコード](https://raw.githubusercontent.com/KantaiMishima/ARKit/master/DetectImage/DetectImage/ViewController.swift)
 
 ## [indexへ戻る](../../../)
