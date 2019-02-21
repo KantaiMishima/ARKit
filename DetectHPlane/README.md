@@ -4,8 +4,9 @@
 
 ### 前準備
 
-持ってきたiPhoneをそれぞれの机のPCに繋げる
-iPhoneやPCから信頼するか聞かれるので信頼するように設定する
+持ってきたiPhoneをそれぞれの机のPCに繋げる。
+
+iPhoneやPCから信頼するか聞かれるので信頼するように設定する。
 
 
 ### 作成手順  
@@ -14,7 +15,7 @@ iPhoneやPCから信頼するか聞かれるので信頼するように設定す
 <img src="images/detect_hplane_select_ar.png" width="480"/>   
 
 2. 以下の内容を入力。
-SceneKit：簡単に3Dゲームを作ることができるフレームワーク  
+SceneKit：簡単に3Dゲームを作ることができるフレームワーク。  
 
 |項目|入力内容|
 | -- | -- |
@@ -30,7 +31,7 @@ SceneKit：簡単に3Dゲームを作ることができるフレームワー�
 3. 一旦、実行してみる。iPhone/iPadを接続し、実行ボタンを押下。  
 <img src="images/detect_hplane_initial_run.png" width="480"/>  
 
-   ここで「信頼されていないデベロッパです」と怒られるので[こちら](https://code-schools.com/xcode-error-2/)を参考に対応
+   ここで「信頼されていないデベロッパです」と怒られるので[こちら](https://code-schools.com/xcode-error-2/)を参考に対応。
    
    <img src="https://user-images.githubusercontent.com/23329399/53166650-4454c800-3619-11e9-8704-1f6ea35484cb.PNG" width="100px"><img src="https://user-images.githubusercontent.com/23329399/53167337-fe98ff00-361a-11e9-806c-1d800a871f24.PNG" width="100px"><img src="https://user-images.githubusercontent.com/23329399/53167374-140e2900-361b-11e9-8a3e-0ffa0ea9b934.PNG" width="100px"><img src="https://user-images.githubusercontent.com/23329399/53167379-183a4680-361b-11e9-9be5-3a5367eb8991.PNG" width="100px">
    
