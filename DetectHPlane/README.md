@@ -32,7 +32,7 @@ SceneKit：簡単に3Dゲームを作ることができるフレームワー�
 
    ここで「信頼されていないデベロッパです」と怒られるので[こちら](https://code-schools.com/xcode-error-2/)を参考に対応
    
-   <img src="https://user-images.githubusercontent.com/23329399/53166650-4454c800-3619-11e9-8704-1f6ea35484cb.PNG" width="100px">
+   <img src="https://user-images.githubusercontent.com/23329399/53166650-4454c800-3619-11e9-8704-1f6ea35484cb.PNG" width="100px"><img src="https://user-images.githubusercontent.com/23329399/53167337-fe98ff00-361a-11e9-806c-1d800a871f24.PNG" width="100px"><img src="https://user-images.githubusercontent.com/23329399/53167374-140e2900-361b-11e9-8a3e-0ffa0ea9b934.PNG" width="100px"><img src="https://user-images.githubusercontent.com/23329399/53167379-183a4680-361b-11e9-9be5-3a5367eb8991.PNG" width="100px">
    
 カメラスルーに飛行機が表示される。  
 <img src="https://user-images.githubusercontent.com/23329399/53167139-7286d780-361a-11e9-9e4e-d17b771a4363.PNG" width="200"/>  
