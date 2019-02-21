@@ -28,7 +28,7 @@
 8. 平面に対する物理演算を追加する。  
 [変更内容](https://github.com/KantaiMishima/ARKit/commit/114b3604a812afbfdb6e043c83684348b3dfe763)
 
-9. 実行する。
+9. XCode上でビルドし実行する。
 垂直面検出後に画面をタップすると、ボールが跳ね返る様子が確認できる。
 <img src="https://user-images.githubusercontent.com/23329399/53169157-d790fc00-361f-11e9-9cb0-5ab3e8736372.PNG" width="240"/> 
 
