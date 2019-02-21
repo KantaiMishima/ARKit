@@ -28,8 +28,8 @@
 8. 平面に対する物理演算を追加する。  
 [変更内容](https://github.com/KantaiMishima/ARKit/commit/114b3604a812afbfdb6e043c83684348b3dfe763)
 
-9. iPhoneを接続し、XCode上でビルドし、実行します。  
-垂直面検出後に画面をタップすると、ボールが跳ね返る様子が確認できます。
+9. 実行する。
+垂直面検出後に画面をタップすると、ボールが跳ね返る様子が確認できる。
 
 
 ### [今回のソースコード](https://raw.githubusercontent.com/KantaiMishima/ARKit/master/BallToWall/BallToWall/ViewController.swift)
