@@ -25,7 +25,7 @@ Assets.xcassetsを選択し、右クリック（2本指でトラックパッド�
 [変更内容](https://github.com/KantaiMishima/ARKit/commit/518822df211222c2846de0c66a99ced85e8a8124)
 
 5. 画像検出時に3D文字を配置する処理を追加する。  
-[変更内容](https://github.com/KantaiMishima/ARKit/commit/565363260d6a12616808afe659c2a243bffe3a3e)
+[変更内容](https://github.com/KantaiMishima/ARKit/commit/f68d684e7040f3821d5d5824ff39fefa1ea57ceb)
 
 6. XCode上でビルドし実行すると、認識した画像に文字が表示される。  
 <img src="images/detect_image_run.jpeg" width="240"/>   
