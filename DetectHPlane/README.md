@@ -20,7 +20,7 @@ SceneKit：簡単に3Dゲームを作ることができるフレームワー�
 |項目|入力内容|
 | -- | -- |
 |Project Name|任意のプロジェクト名(ここでは「DetectHPlane」)|
-|Team|任意のアカウント(ここが「none」になっている人は教えてください)|
+|Team|任意のアカウント(ここが「none」になっていないか確認)|
 |Organization Name|任意のチーム名(ここでは「HIT」+A~Cのアルファベット)|
 |Organization Id|任意のチームID(ここでは「HIT」+A~Cのアルファベット)|
 |Language|Swift|
