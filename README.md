@@ -2,7 +2,7 @@
 
 AppleのAR(Augmented Reality) のアプリ作成用フレームワーク。  
 VIO(Visual-Inertial Odometry)：カメラやセンサから環境マッピング、自己位置推定を行う。  
-[AppleのARKitサイト](https://developer.apple.com/jp/arkit/)  
+<a href="https://developer.apple.com/jp/arkit/" target="_blank">AppleのARKitサイト</a>
 
 - ARKit 1.0：水平面の認識
 - ARKit 1.5：垂直面、画像の認識
