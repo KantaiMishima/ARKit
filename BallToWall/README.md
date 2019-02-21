@@ -17,7 +17,7 @@
 [変更内容](https://github.com/KantaiMishima/ARKit/commit/bbc6f32aef00a90aabfdc3ac51e2abe0ec94f7cd)
 
 5. 実行すると以下のスクリーンショットのように表示される。垂直面を認識している場所に平面が配置される。  
-<img src="images/ball_to_wall_run_vplane.png" width="240"/>  
+<img src="https://user-images.githubusercontent.com/23329399/53168677-977d4980-361e-11e9-94ee-31eab111d27c.JPG" width="240"/>  
 
 6. タップした位置に球を配置する処理を追加する。  
 [変更内容](https://github.com/KantaiMishima/ARKit/commit/70ae1611bf0efc5bb209a44390338a8367d7c5f9)
