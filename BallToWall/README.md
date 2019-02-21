@@ -30,6 +30,7 @@
 
 9. 実行する。
 垂直面検出後に画面をタップすると、ボールが跳ね返る様子が確認できる。
+<img src="https://user-images.githubusercontent.com/23329399/53169157-d790fc00-361f-11e9-9cb0-5ab3e8736372.PNG" width="240"/> 
 
 
 ### [今回のソースコード](https://raw.githubusercontent.com/KantaiMishima/ARKit/master/BallToWall/BallToWall/ViewController.swift)
