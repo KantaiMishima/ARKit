@@ -28,7 +28,7 @@ Assets.xcassetsを選択し、右クリック（2本指でトラックパッド�
 [変更内容](https://github.com/KantaiMishima/ARKit/commit/f68d684e7040f3821d5d5824ff39fefa1ea57ceb)
 
 6. XCode上でビルドし実行すると、認識した画像に文字が表示される。  
-<img src="https://user-images.githubusercontent.com/23329399/53215670-fe3d4a00-3694-11e9-9be5-64e3269ce506.PNG" width="240"/>   
+<img src="https://user-images.githubusercontent.com/23329399/53215965-50329f80-3696-11e9-84de-567e70d4f97d.jpeg" width="240"/>   
 
 ### [今回のソースコード](https://raw.githubusercontent.com/KantaiMishima/ARKit/master/DetectImage/DetectImage/ViewController.swift)
 
