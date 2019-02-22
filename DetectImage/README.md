@@ -19,7 +19,7 @@ Assets.xcassetsを選択し、右クリック（2本指でトラックパッド�
 画像をドラッグ＆ドロップで追加し、 マーカーのサイズを指定する。 
 <img src="https://user-images.githubusercontent.com/23329399/53215625-d51cb980-3694-11e9-9ad0-b73ae0fc6410.png" width="480"/>   
 
-**<a href="https://user-images.githubusercontent.com/23329399/53215533-76574000-3694-11e9-85fe-36ba695ea0ad.png" download="Cello.png">今回はこちらの画像を使用してみましょう</a>**ercontent.com/23329399/53215533-76574000-3694-11e9-85fe-36ba695ea0ad.png)**
+**<a href="https://user-images.githubusercontent.com/23329399/53215533-76574000-3694-11e9-85fe-36ba695ea0ad.png" download="Cello.png">今回はこちらの画像を使用してみましょう</a>**
 
 4. 飛行機を削除し、画像を認識し指定する処理を追加する。  
 [変更内容](https://github.com/KantaiMishima/ARKit/commit/518822df211222c2846de0c66a99ced85e8a8124)
