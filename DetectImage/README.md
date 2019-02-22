@@ -17,7 +17,7 @@ SceneKit：簡単に3Dゲームを作ることができるフレームワー�
 Assets.xcassetsを選択し、右クリック（2本指でトラックパッドをタップ）から「New AR Resource Group」を選ぶ。
 <img src="images/detect_image_add_resource_group.png" width="480"/>   
 画像をドラッグ＆ドロップで追加し、 マーカーのサイズを指定する。 
-<img src="images/detect_image_add_images.png" width="480"/>   
+<img src="https://user-images.githubusercontent.com/23329399/53215625-d51cb980-3694-11e9-9ad0-b73ae0fc6410.png" width="480"/>   
 
 **[今回はこちらの画像を使用してみましょう](https://user-images.githubusercontent.com/23329399/53215533-76574000-3694-11e9-85fe-36ba695ea0ad.png)**
 
@@ -28,7 +28,7 @@ Assets.xcassetsを選択し、右クリック（2本指でトラックパッド�
 [変更内容](https://github.com/KantaiMishima/ARKit/commit/f68d684e7040f3821d5d5824ff39fefa1ea57ceb)
 
 6. XCode上でビルドし実行すると、認識した画像に文字が表示される。  
-<img src="images/detect_image_run.jpeg" width="240"/>   
+<img src="https://user-images.githubusercontent.com/23329399/53215670-fe3d4a00-3694-11e9-9be5-64e3269ce506.PNG" width="240"/>   
 
 ### [今回のソースコード](https://raw.githubusercontent.com/KantaiMishima/ARKit/master/DetectImage/DetectImage/ViewController.swift)
 
